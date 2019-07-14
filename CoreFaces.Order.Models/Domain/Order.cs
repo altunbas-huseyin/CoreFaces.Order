@@ -8,7 +8,7 @@ namespace CoreFaces.Order.Models.Domain
     {
         public Guid UserId { get; set; }
         public string OrderNumber { get; set; }
-        public string Exstra1 { get; set; }
-        public string Exstra2 { get; set; }
+        public string Extra1 { get; set; }
+        public string Extra2 { get; set; }
     }
 }

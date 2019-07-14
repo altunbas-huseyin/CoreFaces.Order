@@ -12,8 +12,8 @@ namespace CoreFaces.Order.Models.Mapping
             entityBuilder.HasKey(t => t.Id);
             entityBuilder.Property(t => t.UserId).IsRequired();
             entityBuilder.Property(t => t.OrderNumber).IsRequired();
-            entityBuilder.Property(t => t.Exstra1).IsRequired();
-            entityBuilder.Property(t => t.Exstra2).IsRequired();
+            entityBuilder.Property(t => t.Extra1).IsRequired();
+            entityBuilder.Property(t => t.Extra2).IsRequired();
             entityBuilder.Property(t => t.CreateDate).IsRequired();
             entityBuilder.Property(t => t.UpdateDate).IsRequired();
 
